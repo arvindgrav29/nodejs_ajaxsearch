@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Search AutoFill</title>
+		<link rel="stylesheet" href="css/main.css"></link>
+	</head>
+	<body>
+		<div class="wraper" align="center">
+			<input id="message" class="message" placeholder="Enter message to db"></textarea>
+			<input id="submit_msg" type="button" class="submit_msg" value="Save Message"></textarea>
+			<div id="statusDiv" class="msg_status">Status: <span>Idle</span></div>
+			<input id="searchbox" type="text" class="searchbox" placeholder="Search Message">
+		</div>
+		
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+		<script src="http://127.0.0.1:8080/socket.io/socket.io.js"></script>
+		<script src="js/search.js"></script>
+		<script>
+			_search({
+				"searchBox_id" : "searchbox",
+				"msgField_id" : "message",
+				"saveBtn_id" : "submit_msg",
+				"statusDiv_id" : "statusDiv",
+				"url" : "http://127.0.0.1:8080"
+			}).getSearchAutoFill();
+		</script>
+	</body>
+</html>

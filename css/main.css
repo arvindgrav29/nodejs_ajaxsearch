@@ -1,0 +1,106 @@
+.body,textarea,input{
+	font:13px "Trebuchet MS", sans-serif;
+}
+.wraper{
+	max-width:300px; 
+	width: 50%; margin: 0 auto;
+	margin-top:20%;
+}
+
+.searchbox,.message{
+	border: 1px solid #CCC;
+}
+
+.searchbox{
+	width: 100%;
+	padding: 10px;
+	margin-top: 40px;
+}
+
+.message{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.submit_msg{
+	width:100%;
+	padding: 10px;
+	margin-left:10px;
+	background:#357ae8;
+	color:#fff;
+	outline:none;
+	cursor:pointer;
+	border: 1px solid #CCC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+}
+.submit_msg:hover{
+	background:#3598e8
+}
+
+.msg_status{
+	margin-top:10px;
+	//text-align:left;
+	margin-left: 10px;
+	color:#4C4C4C;
+}
+
+	.ui-corner-all
+        {
+       -moz-border-radius: 4px 4px 4px 4px;
+    }
+    .ui-widget-content
+        {
+      border: 1px solid #CCC;
+      color: #222222;
+      background-color: Gray;
+    }
+        .ui-widget
+        {
+            font-family: Verdana,Arial,sans-serif;
+            font-size: 15px;
+        }
+        .ui-menu
+        {
+            display: block;
+            float: left;
+            list-style: none outside none;
+            margin: 0;
+            padding: 2px;
+        }
+        .ui-autocomplete
+        {
+            cursor: default;
+            position: absolute;
+        }
+        .ui-menu .ui-menu-item
+        {
+            clear: left;
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        .ui-menu .ui-menu-item a
+        {
+            display: block;
+            padding: 3px 3px 3px 3px;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: bfd4f8;
+        }
+        .ui-menu .ui-menu-item a:hover
+        {
+            display: block;
+            padding: 3px 3px 3px 3px;
+            text-decoration: none;
+            color: White;
+            cursor: pointer;
+            background-color: ButtonText;
+        }
+        .ui-widget-content a
+        {
+            color: #222222;
+        }
